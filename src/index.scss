@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+
+* {
+  font-family: roboto;
+  --key-color: #fa5b12;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+a {
+  color: unset;
+}
+.container {
+  padding: 50px 150px;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 800px) {
+    padding: 10px;
+    flex-direction: column;
+  }
+}
+
+.app__sidebar {
+  flex: 0.3 1;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+
+  @media screen and (max-width: 800px) {
+    margin-bottom: 20px;
+  }
+}
+
+.app__main-content {
+  flex: 0.68 1;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+}

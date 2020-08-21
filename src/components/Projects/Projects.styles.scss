@@ -1,0 +1,27 @@
+.projects {
+  height: 72vh;
+  padding: 30px;
+  overflow-y: auto;
+
+  .projects__category {
+    display: flex;
+    margin: 15px 0;
+    div {
+      margin: 0 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 2px 5px;
+      font-weight: bold;
+
+      &:hover,
+      &:active {
+        background-color: var(--key-color);
+        color: white;
+      }
+    }
+  }
+
+  .MuiGrid-container :nth-of-type(4) .projectCard__icon {
+    display: none;
+  }
+}

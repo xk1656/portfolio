@@ -1,0 +1,25 @@
+.navigationBar {
+  .MuiTabs-flexContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .PrivateTabIndicator-root-1 {
+    background-color: var(--key-color);
+    height: 3px;
+  }
+
+  .MuiAppBar-colorPrimary {
+    color: #000000;
+    background-color: unset;
+  }
+
+  .MuiTab-textColorInherit {
+    color: inherit;
+    opacity: 0.5;
+  }
+
+  .MuiPaper-elevation4 {
+    box-shadow: unset;
+  }
+}

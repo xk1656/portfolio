@@ -21,7 +21,8 @@
     }
   }
 
-  .MuiGrid-container :nth-of-type(4) .projectCard__icon {
+  .MuiGrid-container :nth-of-type(4) .projectCard__icon,
+  .MuiGrid-container :nth-of-type(5) .projectCard__icon {
     display: none;
   }
 }

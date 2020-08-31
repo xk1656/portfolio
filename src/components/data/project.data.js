@@ -20,7 +20,7 @@ const data_projects = [
     image: "assets/projects_images/joseph-buy.jpg",
     deployed_url: "https://joseph-buy.herokuapp.com/",
     github_url: "https://github.com/xk1656/joseph-buy",
-    category: ["html"],
+    category: ["html", "bootstrap"],
   },
 
   {
@@ -30,42 +30,28 @@ const data_projects = [
     github_url: null,
     category: ["wordpress"],
   },
-
   {
-    name: "Shop Website",
-    image: "https://sumitdey.netlify.app/static/media/COVID.0685327b.jpg",
-    deployed_url: "!#",
-    category: ["html", "vanilla"],
+    name: "Instant Brands Shopify Site",
+    image: "assets/projects_images/instantpot-shopify.jpg",
+    deployed_url: "https://store.instantpot.com/",
+    github_url: null,
+    category: ["shopify"],
   },
 
   {
-    name: "Dev Portfolio",
-    image: "https://sumitdey.netlify.app/static/media/COVID.0685327b.jpg",
-    deployed_url: "http://suprateem.herokuapp.com/",
-    category: ["vanilla"],
+    name: "Amy Landscape Design",
+    image: "assets/projects_images/amy-design.jpg",
+    deployed_url: "https://amy-design.herokuapp.com/",
+    github_url: null,
+    category: ["html", "bootstrap"],
   },
 
   {
-    name: "Bengali New Year",
-    image: "https://sumitdey.netlify.app/static/media/COVID.0685327b.jpg",
-    deployed_url: "https://dey-sumit.github.io/NewYear/",
-    category: ["vanilla"],
-  },
-
-  {
-    name: "Color Classification using tf.js",
-    image: "https://sumitdey.netlify.app/static/media/COVID.0685327b.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["node", "machine_learning"],
-  },
-
-  {
-    name: "Blinking bubbles",
-    image: "https://sumitdey.netlify.app/static/media/COVID.0685327b.jpg",
-    deployed_url: "https://dey-sumit.github.io/Blinking_Bubbles/",
-    github_url: "https://github.com/Dey-Sumit/Blinking_Bubbles",
-    category: ["processing"],
+    name: "Covid-19 Tracker",
+    image: "assets/projects_images/Covid-19-tracker.jpg",
+    deployed_url: "https://joseph-covid19.herokuapp.com/",
+    github_url: "https://github.com/xk1656/covid-19-tracker",
+    category: ["react.js"],
   },
 ];
 

@@ -19,6 +19,7 @@ const Projects = () => {
         <div onClick={() => handleFilterCategory("react.js")}>React</div>
         <div onClick={() => handleFilterCategory("firebase")}>Firebase</div>
         <div onClick={() => handleFilterCategory("wordpress")}>Wordpress</div>
+        <div onClick={() => handleFilterCategory("shopify")}>Shopify</div>
         <div onClick={() => handleFilterCategory("html")}>Html/Css</div>
       </div>
       <Grid container spacing={3}>

@@ -14,9 +14,11 @@ const ProjectCard = ({
           <img src={image} alt={name} />
         </a>
         <div className="projectCard__title">
-          <a href={github_url}>
-            <FontAwesomeIcon icon={faGithub} className="projectCard__icon" />
-          </a>
+          {github_url ? (
+            <a href={github_url}>
+              <FontAwesomeIcon icon={faGithub} className="projectCard__icon" />
+            </a>
+          ) : null}
           {name}
         </div>
       </div>

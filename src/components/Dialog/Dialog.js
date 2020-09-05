@@ -78,14 +78,11 @@ export default function CustomizedDialogs() {
         </DialogTitle>
         <DialogContent dividers>
           <img
-            style={{ width: "600px" }}
-            src="//coda.newjobs.com/api/imagesproxy/ms/seo-media/us/resume-images/it-developer-entry-level.jpg"
+            style={{ width: "563px" }}
+            src="assets/projects_images/resume.jpg"
           />
         </DialogContent>
         <DialogActions>
-          <Button autoFocus onClick={handleClose} color="primary">
-            Download PDF
-          </Button>
           <Button autoFocus onClick={handleClose} color="primary">
             Close
           </Button>

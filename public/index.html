@@ -24,6 +24,12 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Joseph Xiao Portfolio</title>
+  <script>
+    var host = "www.josephxiao.com" || "josephxiao.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:")) {
+      window.location.protocol = "https";
+    }
+  </script>
 </head>
 
 <body>

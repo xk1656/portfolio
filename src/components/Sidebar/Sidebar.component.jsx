@@ -19,7 +19,7 @@ const Sidebar = () => {
       <Avatar
         className="sidebar__avatar"
         alt="Joseph Xiao"
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQHqejSt8j8_IA/profile-displayphoto-shrink_100_100/0?e=1603324800&v=beta&t=VVMTSv-5PsizgR4vLMg7nD-4V9G1i-XhvUP2buTnKfc"
+        src="/assets/projects_images/joseph-xiao.jpg"
       />
       <div className="sidebar__name">
         Joseph <span>Xiao</span>

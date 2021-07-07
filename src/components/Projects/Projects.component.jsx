@@ -16,9 +16,10 @@ const Projects = () => {
     <div className="projects">
       <div className="projects__category">
         <div onClick={() => setProjects(data_projects)}>All</div>
+        <div onClick={() => handleFilterCategory("drupal")}>Drupal</div>
+        <div onClick={() => handleFilterCategory("wordpress")}>Wordpress</div>
         <div onClick={() => handleFilterCategory("react.js")}>React</div>
         <div onClick={() => handleFilterCategory("firebase")}>Firebase</div>
-        <div onClick={() => handleFilterCategory("wordpress")}>Wordpress</div>
         <div onClick={() => handleFilterCategory("shopify")}>Shopify</div>
         <div onClick={() => handleFilterCategory("html")}>Html/Css</div>
       </div>

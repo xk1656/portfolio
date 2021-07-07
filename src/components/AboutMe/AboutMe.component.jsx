@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="about__intro">
         <h3>HEY, I'm Joseph</h3>
         <p>
-          Solution-driven Front End Developer with 3 years experience building
+          Solution-driven Front End Developer with 4 years experience building
           and maintaining responsive website. Proficient in HTML, CSS,
           JavaScript; plus modern libraries and frameworks.
         </p>
@@ -17,8 +17,7 @@ const AboutMe = () => {
           development.
         </p>
         <p>
-          I am currently a full-time Web Developer working at Kanata Research
-          Park.
+          I am currently a full-time Drupal Developer working at Greater Vancouver Area, BC.
         </p>
       </div>
       <Skills />

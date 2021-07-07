@@ -48,7 +48,7 @@ const Sidebar = () => {
         </div>
         <div className="sidebar__item">
           <LocationOn />
-          Ottawa, Canada
+          Greater Vancouver Area, BC
         </div>
       </div>
       <div className="sidebar__email_me">
